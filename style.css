@@ -1,0 +1,44 @@
+body {
+    background-size: cover;
+    background-color: lightgray;
+}
+
+.heading {
+    width: 100%;
+    margin: 0px;
+    font-size: 23px;
+}
+
+#item_input {
+    width: 35%;
+    height: 30px;
+}
+
+#start_button,
+#number_of_objects,
+#object_status,
+#pause_button,
+#end_button {
+    font-size: 20px;
+    box-shadow: 5px 5px 5px darkslategray;
+}
+
+.copy_right_footer {
+    position: fixed;
+    bottom: 0;
+    background-color: gray;
+    font-size: 20px;
+    width: 100%;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+canvas {
+    border-color: indigo;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: double;
+    box-shadow: 5px 5px 5px gray;
+    margin-top: 100px;
+}
